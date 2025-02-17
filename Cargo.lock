@@ -395,7 +395,7 @@ dependencies = [
  "strum_macros",
  "sysinfo",
  "tracing-subscriber",
- "wgpu 24.0.0 (git+https://github.com/minus1ms/wgpu)",
+ "wgpu",
  "wsl",
 ]
 
@@ -1474,7 +1474,7 @@ dependencies = [
 [[package]]
 name = "cubecl"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "cubecl-core",
  "cubecl-cuda",
@@ -1489,7 +1489,7 @@ dependencies = [
 [[package]]
 name = "cubecl-common"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "bytemuck",
  "derive-new 0.6.0",
@@ -1510,7 +1510,7 @@ dependencies = [
 [[package]]
 name = "cubecl-core"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "bitflags 2.8.0",
  "bytemuck",
@@ -1531,7 +1531,7 @@ dependencies = [
 [[package]]
 name = "cubecl-cpp"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1545,7 +1545,7 @@ dependencies = [
 [[package]]
 name = "cubecl-cuda"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1561,7 +1561,7 @@ dependencies = [
 [[package]]
 name = "cubecl-hip"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1587,7 +1587,7 @@ dependencies = [
 [[package]]
 name = "cubecl-ir"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "cubecl-common",
  "cubecl-macros-internal",
@@ -1605,7 +1605,7 @@ dependencies = [
 [[package]]
 name = "cubecl-linalg"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "bytemuck",
  "cubecl-core",
@@ -1617,7 +1617,7 @@ dependencies = [
 [[package]]
 name = "cubecl-macros"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "cubecl-common",
  "darling",
@@ -1632,7 +1632,7 @@ dependencies = [
 [[package]]
 name = "cubecl-macros-internal"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "darling",
  "proc-macro2",
@@ -1643,7 +1643,7 @@ dependencies = [
 [[package]]
 name = "cubecl-opt"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "cubecl-common",
  "cubecl-ir",
@@ -1659,7 +1659,7 @@ dependencies = [
 [[package]]
 name = "cubecl-reduce"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "cubecl-core",
  "cubecl-runtime",
@@ -1669,7 +1669,7 @@ dependencies = [
 [[package]]
 name = "cubecl-runtime"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "async-channel",
  "async-lock",
@@ -1691,7 +1691,7 @@ dependencies = [
 [[package]]
 name = "cubecl-spirv"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "bitflags 2.8.0",
  "cubecl-common",
@@ -1706,7 +1706,7 @@ dependencies = [
 [[package]]
 name = "cubecl-wgpu"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#3d888f7cc4a1abcb58405cf2a8dd89bb624bf7c8"
+source = "git+https://github.com/minus1ms/cubecl#ab34f2b1db5ccc46cbe12b7fcbcfafa4d56be5bb"
 dependencies = [
  "ash",
  "async-channel",
@@ -1721,7 +1721,7 @@ dependencies = [
  "hashbrown 0.14.5",
  "log",
  "web-time",
- "wgpu 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
+ "wgpu",
 ]
 
 [[package]]
@@ -4021,28 +4021,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.98",
-]
-
-[[package]]
-name = "naga"
-version = "24.0.0"
-source = "git+https://github.com/gfx-rs/wgpu#9da04c2b0b28b08d690b354ebc9dccf8a82f010f"
-dependencies = [
- "arrayvec",
- "bit-set",
- "bitflags 2.8.0",
- "cfg_aliases",
- "codespan-reporting",
- "hashbrown 0.14.5",
- "hexf-parse",
- "indexmap",
- "log",
- "rustc-hash",
- "spirv 0.3.0+sdk-1.3.268.0",
- "strum",
- "termcolor",
- "thiserror 2.0.11",
- "unicode-ident",
 ]
 
 [[package]]
@@ -7782,32 +7760,6 @@ dependencies = [
 [[package]]
 name = "wgpu"
 version = "24.0.0"
-source = "git+https://github.com/gfx-rs/wgpu#9da04c2b0b28b08d690b354ebc9dccf8a82f010f"
-dependencies = [
- "arrayvec",
- "bitflags 2.8.0",
- "cfg_aliases",
- "document-features",
- "hashbrown 0.14.5",
- "js-sys",
- "log",
- "naga 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
- "parking_lot 0.12.3",
- "profiling",
- "raw-window-handle",
- "smallvec",
- "static_assertions",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
- "wgpu-core 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
- "wgpu-hal 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
- "wgpu-types 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
-]
-
-[[package]]
-name = "wgpu"
-version = "24.0.0"
 source = "git+https://github.com/minus1ms/wgpu#3a6e6d60feada7955c064d264e6de595973deb8b"
 dependencies = [
  "arrayvec",
@@ -7817,7 +7769,7 @@ dependencies = [
  "hashbrown 0.14.5",
  "js-sys",
  "log",
- "naga 24.0.0 (git+https://github.com/minus1ms/wgpu)",
+ "naga",
  "parking_lot 0.12.3",
  "profiling",
  "raw-window-handle",
@@ -7826,34 +7778,9 @@ dependencies = [
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",
- "wgpu-core 24.0.0 (git+https://github.com/minus1ms/wgpu)",
- "wgpu-hal 24.0.0 (git+https://github.com/minus1ms/wgpu)",
- "wgpu-types 24.0.0 (git+https://github.com/minus1ms/wgpu)",
-]
-
-[[package]]
-name = "wgpu-core"
-version = "24.0.0"
-source = "git+https://github.com/gfx-rs/wgpu#9da04c2b0b28b08d690b354ebc9dccf8a82f010f"
-dependencies = [
- "arrayvec",
- "bit-vec",
- "bitflags 2.8.0",
- "cfg_aliases",
- "document-features",
- "hashbrown 0.14.5",
- "indexmap",
- "log",
- "naga 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
- "once_cell",
- "parking_lot 0.12.3",
- "profiling",
- "raw-window-handle",
- "rustc-hash",
- "smallvec",
- "thiserror 2.0.11",
- "wgpu-hal 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
- "wgpu-types 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
+ "wgpu-core",
+ "wgpu-hal",
+ "wgpu-types",
 ]
 
 [[package]]
@@ -7869,7 +7796,7 @@ dependencies = [
  "hashbrown 0.14.5",
  "indexmap",
  "log",
- "naga 24.0.0 (git+https://github.com/minus1ms/wgpu)",
+ "naga",
  "once_cell",
  "parking_lot 0.12.3",
  "profiling",
@@ -7877,54 +7804,8 @@ dependencies = [
  "rustc-hash",
  "smallvec",
  "thiserror 2.0.11",
- "wgpu-hal 24.0.0 (git+https://github.com/minus1ms/wgpu)",
- "wgpu-types 24.0.0 (git+https://github.com/minus1ms/wgpu)",
-]
-
-[[package]]
-name = "wgpu-hal"
-version = "24.0.0"
-source = "git+https://github.com/gfx-rs/wgpu#9da04c2b0b28b08d690b354ebc9dccf8a82f010f"
-dependencies = [
- "android_system_properties",
- "arrayvec",
- "ash",
- "bit-set",
- "bitflags 2.8.0",
- "block",
- "bytemuck",
- "cfg_aliases",
- "core-graphics-types",
- "glow",
- "glutin_wgl_sys",
- "gpu-alloc",
- "gpu-allocator",
- "gpu-descriptor",
- "hashbrown 0.14.5",
- "js-sys",
- "khronos-egl",
- "libc",
- "libloading",
- "log",
- "metal 0.31.0",
- "naga 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
- "ndk-sys",
- "objc",
- "once_cell",
- "ordered-float",
- "parking_lot 0.12.3",
- "profiling",
- "range-alloc",
- "raw-window-handle",
- "renderdoc-sys",
- "rustc-hash",
- "smallvec",
- "thiserror 2.0.11",
- "wasm-bindgen",
- "web-sys",
- "wgpu-types 24.0.0 (git+https://github.com/gfx-rs/wgpu)",
- "windows 0.58.0",
- "windows-core 0.58.0",
+ "wgpu-hal",
+ "wgpu-types",
 ]
 
 [[package]]
@@ -7953,7 +7834,7 @@ dependencies = [
  "libloading",
  "log",
  "metal 0.31.0",
- "naga 24.0.0 (git+https://github.com/minus1ms/wgpu)",
+ "naga",
  "ndk-sys",
  "objc",
  "once_cell",
@@ -7968,22 +7849,9 @@ dependencies = [
  "thiserror 2.0.11",
  "wasm-bindgen",
  "web-sys",
- "wgpu-types 24.0.0 (git+https://github.com/minus1ms/wgpu)",
+ "wgpu-types",
  "windows 0.58.0",
  "windows-core 0.58.0",
-]
-
-[[package]]
-name = "wgpu-types"
-version = "24.0.0"
-source = "git+https://github.com/gfx-rs/wgpu#9da04c2b0b28b08d690b354ebc9dccf8a82f010f"
-dependencies = [
- "bitflags 2.8.0",
- "js-sys",
- "log",
- "serde",
- "thiserror 2.0.11",
- "web-sys",
 ]
 
 [[package]]
