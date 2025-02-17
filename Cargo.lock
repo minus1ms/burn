@@ -1474,7 +1474,7 @@ dependencies = [
 [[package]]
 name = "cubecl"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "cubecl-core",
  "cubecl-cuda",
@@ -1489,7 +1489,7 @@ dependencies = [
 [[package]]
 name = "cubecl-common"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "bytemuck",
  "derive-new 0.6.0",
@@ -1510,7 +1510,7 @@ dependencies = [
 [[package]]
 name = "cubecl-core"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "bitflags 2.8.0",
  "bytemuck",
@@ -1531,7 +1531,7 @@ dependencies = [
 [[package]]
 name = "cubecl-cpp"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1545,7 +1545,7 @@ dependencies = [
 [[package]]
 name = "cubecl-cuda"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1561,7 +1561,7 @@ dependencies = [
 [[package]]
 name = "cubecl-hip"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "bytemuck",
  "cubecl-common",
@@ -1587,7 +1587,7 @@ dependencies = [
 [[package]]
 name = "cubecl-ir"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "cubecl-common",
  "cubecl-macros-internal",
@@ -1605,7 +1605,7 @@ dependencies = [
 [[package]]
 name = "cubecl-linalg"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "bytemuck",
  "cubecl-core",
@@ -1617,7 +1617,7 @@ dependencies = [
 [[package]]
 name = "cubecl-macros"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "cubecl-common",
  "darling",
@@ -1632,7 +1632,7 @@ dependencies = [
 [[package]]
 name = "cubecl-macros-internal"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "darling",
  "proc-macro2",
@@ -1643,7 +1643,7 @@ dependencies = [
 [[package]]
 name = "cubecl-opt"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "cubecl-common",
  "cubecl-ir",
@@ -1659,7 +1659,7 @@ dependencies = [
 [[package]]
 name = "cubecl-reduce"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "cubecl-core",
  "cubecl-runtime",
@@ -1669,7 +1669,7 @@ dependencies = [
 [[package]]
 name = "cubecl-runtime"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "async-channel",
  "async-lock",
@@ -1691,7 +1691,7 @@ dependencies = [
 [[package]]
 name = "cubecl-spirv"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "bitflags 2.8.0",
  "cubecl-common",
@@ -1706,7 +1706,7 @@ dependencies = [
 [[package]]
 name = "cubecl-wgpu"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl#50a3e5490fc9e57fd6e862a80fda61821c83c833"
+source = "git+https://github.com/minus1ms/cubecl#a5048ef68aa2d9fceaa432983efc7bfebe2fdd27"
 dependencies = [
  "ash",
  "async-channel",
