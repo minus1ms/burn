@@ -101,7 +101,7 @@ ratatui = "0.29.0"
 
 # WGPU stuff
 text_placeholder = "0.5.1"
-wgpu = "24.0.1"
+wgpu = { git = "https://github.com/gfx-rs/wgpu" }
 
 # Benchmarks and Burnbench
 arboard = "3.4.1"
