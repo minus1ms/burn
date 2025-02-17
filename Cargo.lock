@@ -4026,7 +4026,7 @@ dependencies = [
 [[package]]
 name = "naga"
 version = "24.0.0"
-source = "git+https://github.com/minus1ms/wgpu#45ff9f6b74dc3a503b6e634c067922bd34333a22"
+source = "git+https://github.com/minus1ms/wgpu#8c5df5a13ef05923ae355ba86ea34ad5a55e72ce"
 dependencies = [
  "arrayvec",
  "bit-set",
@@ -6829,9 +6829,9 @@ dependencies = [
 
 [[package]]
 name = "tempfile"
-version = "3.17.0"
+version = "3.17.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a40f762a77d2afa88c2d919489e390a12bdd261ed568e60cfa7e48d4e20f0d33"
+checksum = "22e5a0acb1f3f55f65cc4a866c361b2fb2a0ff6366785ae6fbb5f85df07ba230"
 dependencies = [
  "cfg-if",
  "fastrand",
@@ -7760,7 +7760,7 @@ dependencies = [
 [[package]]
 name = "wgpu"
 version = "24.0.0"
-source = "git+https://github.com/minus1ms/wgpu#45ff9f6b74dc3a503b6e634c067922bd34333a22"
+source = "git+https://github.com/minus1ms/wgpu#8c5df5a13ef05923ae355ba86ea34ad5a55e72ce"
 dependencies = [
  "arrayvec",
  "bitflags 2.8.0",
@@ -7786,7 +7786,7 @@ dependencies = [
 [[package]]
 name = "wgpu-core"
 version = "24.0.0"
-source = "git+https://github.com/minus1ms/wgpu#45ff9f6b74dc3a503b6e634c067922bd34333a22"
+source = "git+https://github.com/minus1ms/wgpu#8c5df5a13ef05923ae355ba86ea34ad5a55e72ce"
 dependencies = [
  "arrayvec",
  "bit-vec",
@@ -7811,7 +7811,7 @@ dependencies = [
 [[package]]
 name = "wgpu-hal"
 version = "24.0.0"
-source = "git+https://github.com/minus1ms/wgpu#45ff9f6b74dc3a503b6e634c067922bd34333a22"
+source = "git+https://github.com/minus1ms/wgpu#8c5df5a13ef05923ae355ba86ea34ad5a55e72ce"
 dependencies = [
  "android_system_properties",
  "arrayvec",
@@ -7857,7 +7857,7 @@ dependencies = [
 [[package]]
 name = "wgpu-types"
 version = "24.0.0"
-source = "git+https://github.com/minus1ms/wgpu#45ff9f6b74dc3a503b6e634c067922bd34333a22"
+source = "git+https://github.com/minus1ms/wgpu#8c5df5a13ef05923ae355ba86ea34ad5a55e72ce"
 dependencies = [
  "bitflags 2.8.0",
  "js-sys",
