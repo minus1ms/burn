@@ -587,7 +587,7 @@ dependencies = [
 name = "burn-common"
 version = "0.17.0"
 dependencies = [
- "cubecl-common 0.5.0 (git+https://github.com/tracel-ai/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "dashmap",
  "getrandom 0.2.15",
  "indicatif",
@@ -1474,7 +1474,7 @@ dependencies = [
 [[package]]
 name = "cubecl"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "cubecl-core",
  "cubecl-cuda",
@@ -1489,40 +1489,19 @@ dependencies = [
 [[package]]
 name = "cubecl-common"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "bytemuck",
  "derive-new 0.6.0",
  "derive_more 1.0.0",
  "embassy-futures",
  "futures-lite",
- "getrandom 0.2.15",
+ "getrandom 0.3.1",
  "half",
  "log",
  "num-traits",
  "portable-atomic",
- "rand 0.8.5",
- "serde",
- "spin",
- "web-time",
-]
-
-[[package]]
-name = "cubecl-common"
-version = "0.5.0"
-source = "git+https://github.com/tracel-ai/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
-dependencies = [
- "bytemuck",
- "derive-new 0.6.0",
- "derive_more 1.0.0",
- "embassy-futures",
- "futures-lite",
- "getrandom 0.2.15",
- "half",
- "log",
- "num-traits",
- "portable-atomic",
- "rand 0.8.5",
+ "rand 0.9.0",
  "serde",
  "spin",
  "web-time",
@@ -1531,11 +1510,11 @@ dependencies = [
 [[package]]
 name = "cubecl-core"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "bitflags 2.8.0",
  "bytemuck",
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "cubecl-ir",
  "cubecl-macros",
  "cubecl-runtime",
@@ -1552,10 +1531,10 @@ dependencies = [
 [[package]]
 name = "cubecl-cpp"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "bytemuck",
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "cubecl-core",
  "cubecl-runtime",
  "derive-new 0.6.0",
@@ -1566,10 +1545,10 @@ dependencies = [
 [[package]]
 name = "cubecl-cuda"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "bytemuck",
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "cubecl-core",
  "cubecl-cpp",
  "cubecl-runtime",
@@ -1582,10 +1561,10 @@ dependencies = [
 [[package]]
 name = "cubecl-hip"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "bytemuck",
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "cubecl-core",
  "cubecl-cpp",
  "cubecl-hip-sys",
@@ -1608,9 +1587,9 @@ dependencies = [
 [[package]]
 name = "cubecl-ir"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "cubecl-macros-internal",
  "derive_more 1.0.0",
  "float-ord",
@@ -1626,11 +1605,12 @@ dependencies = [
 [[package]]
 name = "cubecl-linalg"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "bytemuck",
  "cubecl-core",
  "cubecl-runtime",
+ "cubecl-std",
  "half",
  "serde",
 ]
@@ -1638,9 +1618,9 @@ dependencies = [
 [[package]]
 name = "cubecl-macros"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "darling",
  "derive-new 0.6.0",
  "ident_case",
@@ -1653,7 +1633,7 @@ dependencies = [
 [[package]]
 name = "cubecl-macros-internal"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "darling",
  "proc-macro2",
@@ -1664,9 +1644,9 @@ dependencies = [
 [[package]]
 name = "cubecl-opt"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "cubecl-ir",
  "float-ord",
  "log",
@@ -1680,7 +1660,7 @@ dependencies = [
 [[package]]
 name = "cubecl-reduce"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "cubecl-core",
  "cubecl-runtime",
@@ -1690,12 +1670,12 @@ dependencies = [
 [[package]]
 name = "cubecl-runtime"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "async-channel",
  "async-lock",
  "cfg_aliases",
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "derive-new 0.6.0",
  "dirs",
  "hashbrown 0.14.5",
@@ -1712,10 +1692,10 @@ dependencies = [
 [[package]]
 name = "cubecl-spirv"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "bitflags 2.8.0",
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "cubecl-core",
  "cubecl-opt",
  "cubecl-runtime",
@@ -1725,20 +1705,30 @@ dependencies = [
 ]
 
 [[package]]
+name = "cubecl-std"
+version = "0.5.0"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
+dependencies = [
+ "cubecl-core",
+ "cubecl-runtime",
+]
+
+[[package]]
 name = "cubecl-wgpu"
 version = "0.5.0"
-source = "git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1#49f38a2b426b9a7fb90969ceb097003cc78556b1"
+source = "git+https://github.com/minus1ms/cubecl#7a813cd911ae07b65635085b883649135bee8cc2"
 dependencies = [
  "ash",
  "async-channel",
  "bytemuck",
  "cfg-if",
  "cfg_aliases",
- "cubecl-common 0.5.0 (git+https://github.com/minus1ms/cubecl?rev=49f38a2b426b9a7fb90969ceb097003cc78556b1)",
+ "cubecl-common",
  "cubecl-core",
  "cubecl-runtime",
  "cubecl-spirv",
  "derive-new 0.6.0",
+ "derive_more 1.0.0",
  "hashbrown 0.14.5",
  "log",
  "web-time",
@@ -2784,8 +2774,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "43a49c392881ce6d5c3b8cb70f98717b7c07aabbdff06687b9030dbfbe2725f8"
 dependencies = [
  "cfg-if",
+ "js-sys",
  "libc",
  "wasi 0.13.3+wasi-0.2.2",
+ "wasm-bindgen",
  "windows-targets 0.52.6",
 ]
 
